@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GamePlugin.core</name>
+    </assembly>
+    <members>
+        <member name="T:Pyromaniacs.PyromaniacsCorePlugin">
+            <summary>
+            Defines a Duality core plugin.
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.Gameplay.Player.PlayerId">
+            <summary>
+            Gets or sets the id of the player.
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.Gameplay.Player.MovementSpeed">
+            <summary>
+            Gets or sets the movement speed of the player.
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.Gameplay.Player.PlayerName">
+            <summary>
+            Player Name to be shown ingame
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.Gameplay.Player.ViewDirection">
+            <summary>
+            Direction this player is currently looking at
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.Gameplay.Player.MaxBombs">
+            <summary>
+            Maximum bombs a player can carry
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.Gameplay.PlayerController.InputType">
+            <summary>
+            Gets or sets the type input with which the player should be controlled.
+            (Keyboard or XboxController)
+            </summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "M:Pyromaniacs.UI.OptionsMenu.saveOptions" ignoriert -->
+        <member name="P:Pyromaniacs.UI.OptionsMenuItem.OptionValues">
+            <summary>
+            contains option value in string format
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.UI.OptionsMenuItem.Text">
+            <summary>
+            The displayed textof the menu item.
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.UI.OptionsMenuItem.Scale">
+            <summary>
+            Gets or sets the scale of the item
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.UI.OptionsMenuItem.ActiveOption">
+            <summary>
+            Contains index of current option value in OptionValues
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.UI.OptionsMenuItem.OptionName">
+            <summary>
+            Contains Option name that is used for loading and saving ActiveOptions
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.UI.MainMenuItem.NextScene">
+            <summary>
+            Gets the next scene that should be loaded.
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.UI.MainMenuItem.Text">
+            <summary>
+            The displayed textof the menu item.
+            </summary>
+        </member>
+        <member name="P:Pyromaniacs.UI.MainMenuItem.Scale">
+            <summary>
+            Gets or sets the scale of the item
+            </summary>
+        </member>
+        <member name="M:Pyromaniacs.Visual.CameraShaker.Shake(System.Single)">
+            <summary>
+            Shakes the camera by a specific amount of strength.
+            </summary>
+            <param name="strength">The strength of the camera shake.</param>
+        </member>
+        <member name="P:Pyromaniacs.Visual.ScreenSizeAdjuster.ZoomFactor">
+            <summary>
+            The zoomfactor of the camera.
+            </summary>
+        </member>
+    </members>
+</doc>

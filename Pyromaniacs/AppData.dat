@@ -1,0 +1,37 @@
+﻿<root dataType="Struct" type="Duality.DualityAppData" id="129723834">
+  <appName dataType="String">Pyromaniacs</appName>
+  <authorName dataType="String">Unknown</authorName>
+  <customData dataType="Struct" type="Pyromaniacs.Misc.UserData" id="427169525">
+    <_x003C_Options_x003E_k__BackingField dataType="Struct" type="Pyromaniacs.Misc.Options">
+      <fieldSize dataType="String">medium</fieldSize>
+      <playerCount dataType="Int">2</playerCount>
+      <scoreToWin dataType="Int">3</scoreToWin>
+    </_x003C_Options_x003E_k__BackingField>
+    <playerScores dataType="Struct" type="System.Collections.Generic.Dictionary`2[[Pyromaniacs.Gameplay.PlayerId],[System.Int32]]" id="1100841590" surrogate="true">
+      <header />
+      <body>
+        <keys dataType="Array" type="System.Object[]" id="2824927200">
+          <item dataType="Enum" type="Pyromaniacs.Gameplay.PlayerId" name="PlayerOne" value="0" />
+          <item dataType="Enum" type="Pyromaniacs.Gameplay.PlayerId" name="PlayerTwo" value="1" />
+        </keys>
+        <values dataType="Array" type="System.Object[]" id="3573126030">
+          <item dataType="Int">2</item>
+          <item dataType="Int">1</item>
+        </values>
+      </body>
+    </playerScores>
+  </customData>
+  <localUserData dataType="Bool">false</localUserData>
+  <multisampleBackBuffer dataType="Bool">true</multisampleBackBuffer>
+  <physicsFixedTime dataType="Bool">false</physicsFixedTime>
+  <physicsVelThreshold dataType="Float">0.8333333</physicsVelThreshold>
+  <skipBackends />
+  <soundDopplerFactor dataType="Float">1</soundDopplerFactor>
+  <speedOfSound dataType="Float">360</speedOfSound>
+  <startScene dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Scene]]">
+    <contentPath dataType="String">Data\Scenes\SplashScene.Scene.res</contentPath>
+  </startScene>
+  <version dataType="UInt">692</version>
+  <websiteUrl dataType="String">http://www.adamslair.net</websiteUrl>
+</root>
+<!-- XmlFormatterBase Document Separator -->
