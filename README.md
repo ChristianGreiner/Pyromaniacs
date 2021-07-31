@@ -3,11 +3,9 @@
 Pyromaniacs is a two-man project, that was done for a school project back in 2017.
 It's a simple 2D Bomberman clone that could be played up to four players.
 
-![](screenshots/menu.png)
-![](screenshots/gameplay_gif)
+![](screenshots/gameplay.png)
 
-
-##Powerups
+## Powerups
 
 Powerups are hidden inside the rocks. So you have to destroy these rocks to find a power up.
 - Speed: Your movement speed get increased by a small value
